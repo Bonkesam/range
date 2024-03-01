@@ -1,10 +1,12 @@
 import { Button } from '@nextui-org/react';
 import React from 'react'
+import Navbar from './Navbar';
 
 const Hero = () => {
   return (
     <section className='relative h-screen flex flex-col justify-center'>
         {/**NavBar */}
+        <Navbar />
         {/**Background video */}
         <div className='absolute inset-o -z-10'>
             <div className='absolute inset-0 bg-black/50 z-10'/>
@@ -17,7 +19,7 @@ const Hero = () => {
             <div className='flex flex-col items-center gap-8'>
                 <h1 className='text-4xl max-w-[35ch] text-center font-serif'>
                     Buy 2 cars: Comfort and Offroad, or<br/>
-                    Buy a <span className='text-center text-rose-600 uppercase font-bold'>Range Rover</span>
+                    Buy a <span className='text-center text-rose-900 uppercase font-bold'>Range Rover</span>
                 </h1>
                 <p className='font-serif text-xl'>
                     The choice is yours!
@@ -33,7 +35,7 @@ const Hero = () => {
                 <div className='h-full w-[2px] bg-white'/>
                 <Highlight title='Seating' content='Upto 7'/>
                 <div className='h-full w-[2px] bg-white'/>
-                <Highlight title='0-60 mph' content='under 3.5 sec'/>
+                <Highlight title='0-60 mph' content='Under 3.5 sec'/>
             </div>
         </div>
       

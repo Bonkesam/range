@@ -26,6 +26,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      
       <Section 
       image={seats} 
       title="Sink into the haven of handcrafted luxury, where every journey is an oasis of serenity."

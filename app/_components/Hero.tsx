@@ -15,16 +15,16 @@ const Hero = () => {
             </video>
         </div>
         {/**Text Content */}
-        <div className='flex flex-col items-center gap-24 text-white'>
-            <div className='flex flex-col items-center gap-8'>
-                <h1 className='text-4xl max-w-[35ch] text-center font-serif'>
+        <div className='flex flex-col items-center pt-6 gap-24 text-white'>
+            <div className='flex flex-col items-center  gap-2 lg:gap-8'>
+                <h1 className=' text-xl lg:text-4xl max-w-[35ch] text-center font-serif'>
                     Buy 2 cars: Comfort and Offroad, or<br/>
                     Buy a <span className='text-center text-rose-900 uppercase font-bold'>Range Rover</span>
                 </h1>
-                <p className='font-serif text-xl'>
+                <p className='font-serif text-sm lg:text-xl'>
                     The choice is yours!
                 </p>
-                <Button className='bg-black rounded-xl p-3' color='secondary' variant='bordered'>
+                <Button className='bg-black rounded-xl p-3 text-sm lg:text-lg' color='secondary' variant='bordered'>
                     Stay tuned
                 </Button>
             </div>
@@ -45,9 +45,9 @@ const Hero = () => {
 
 const Highlight: React.FC<{title: string; content: string}> = ({title, content}) => {
     return(
-        <div className='flex flex-col items-center gap-4'>
+        <div className='flex flex-col items-center gap-1 lg:gap-4'>
            <span className='uppercase text-sm'>{title}</span> 
-           <p className='text-2xl'>{content}</p>
+           <p className=' text-sm lg:text-2xl'>{content}</p>
         </div>
     )
 }

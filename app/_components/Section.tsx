@@ -26,7 +26,7 @@ const Section: React.FC<{
         <Image
             src ={image}
             alt={title}
-            fill
+            objectFit='cover'
         />
       </motion.div>
 

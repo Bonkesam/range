@@ -35,7 +35,7 @@ const Hero = () => {
                 <div className='h-full w-[2px] bg-white'/>
                 <Highlight title='Seating' content='Upto 7'/>
                 <div className='h-full w-[2px] bg-white'/>
-                <Highlight title='0-60 mph' content='Under 3.5 sec'/>
+                <Highlight title='Happy Clients' content='100%'/>
             </div>
         </div>
       
